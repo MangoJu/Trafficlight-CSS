@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: #cccccc;
+    width: 80vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#redbox {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    background-color: #ff0000;
+    margin-top: 100px;
+    border: 16px solid #8b0000;
+    outline: 8px solid #ffffff;
+
+}
+
+#yellowbox {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    background-color: #ffff00;
+    border: 16px solid #b8860b;
+    outline: 8px solid #ffffff;
+
+}
+
+#greenbox {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    background-color: #008001;
+    border: 16px solid #006400;
+    outline: 8px solid #ffffff;
+    margin-bottom: 100px;
+
+}
